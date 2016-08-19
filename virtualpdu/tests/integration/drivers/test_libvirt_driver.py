@@ -17,7 +17,7 @@ from virtualpdu.drivers import libvirt_driver
 from virtualpdu.tests import base
 
 
-LIBVIRT_TEST_PROVIDER = 'test:///default'
+LIBVIRT_TEST_PROVIDER = 'test+unix:///default'
 
 
 class TestLibvirtDeviceProviderIntegration(base.TestCase):
