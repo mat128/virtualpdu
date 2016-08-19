@@ -53,7 +53,7 @@ class APCRackPDU(PDU):
     }
 
     core_to_native_power_states = {
-        POWER_ON: rPDU_power_mappings['immediateOn'],
+        # POWER_ON: rPDU_power_mappings['immediateOn'],
         POWER_OFF: rPDU_power_mappings['immediateOff'],
-        REBOOT: rPDU_power_mappings['immediateReboot']
+        # REBOOT: rPDU_power_mappings['immediateReboot']
     }
